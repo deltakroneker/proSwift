@@ -41,7 +41,7 @@ class SideImageTextField: UITextField {
     func setupView(name: String, imageLeft: TextFieldLeftImage, imageRight: TextFieldRightImage) {
         
         attributedPlaceholder = NSAttributedString(string: name,
-                                                                attributes: [NSAttributedString.Key.foregroundColor: UIColor.black])
+                                                   attributes: [NSAttributedString.Key.foregroundColor: UIColor.black])
         font = UIFont(name: "EncodeSans-Medium", size: fontSize)
         backgroundColor = UIColor.white
         borderStyle = .roundedRect
